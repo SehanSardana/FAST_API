@@ -1,0 +1,4 @@
+#requiremnets.txt
+
+mysqlclient==8.0.33
+SQLAlchemy==2.0.23
