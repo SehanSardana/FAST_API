@@ -19,7 +19,7 @@ if st.sidebar.checkbox('Submit'):
         task = st.text_input('Name of task')
         completion_date = st.date_input("When's your task due", datetime.date(2019, 7, 6))
     elif (option == 'Read Task'):
-        df = conn.query('SELECT * from credentails;', ttl=600)
+        df = conn.query('SELECT * from credentails;',ttl=600)
         st.write(df)
     elif(option == 'Update Task'):
         st.write("dsfdsf")
