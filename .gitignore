@@ -1,9 +1,1 @@
-# .streamlit/secrets.toml
-
-[connections.mysql]
-dialect="mysql"
-host="localhost"
-port=3306
-database="project"
-username="root"
-password="root"
+.toml
